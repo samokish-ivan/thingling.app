@@ -3,6 +3,9 @@
 This repository is only used for reporting bugs, suggesting features,  
 and tracking improvements for the Thingling Image Resizer tool.
 
+PLEASE NOTE: This is a simple free to use image resizer (no ads, no paid features, etc.)
+and I may be really really slow to reply any all issues or messages. Thank you for your understanding!
+
 🔗 https://thingling.app  
 📷 Supports batch image resizing, focus point cropping, WebP export, ZIP download, and more.
 
