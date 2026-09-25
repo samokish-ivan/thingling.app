@@ -1,31 +1,70 @@
 # Thingling – Feedback & Issue Tracker
 
-This repository is only used for reporting bugs, suggesting features,  
-and tracking improvements for the Thingling Image Resizer tool.
+This repository is used for reporting bugs, suggesting features, and tracking improvements for the Thingling Image Resizer & Optimizer.
 
-PLEASE NOTE: This is a simple free to use image resizer (no ads, no paid features, etc.)
-and I may be really really slow to reply any all issues or messages. Thank you for your understanding!
+PLEASE NOTE: Thingling is a simple, free-to-use image optimization tool with no ads, subscriptions, or paid features.
+
+I may be slow to respond to issues, feature requests, or messages, so thank you for your patience and understanding!
 
 🔗 https://thingling.app  
-📷 Supports batch image resizing, focus point cropping, WebP export, ZIP download, and more.
+📷 Supports batch image optimization, resizing, focus-point cropping, format conversion, metadata editing, WebP export, custom filenames, ZIP downloads, and more.
 
 ---
 
 ## Report a Bug
-Please open an issue with:
+
+Please open an issue and include:
+
 - Steps to reproduce
-- Example images (if possible)
-- Browser + OS
-- Expected result / actual result
+- Example images, if possible
+- Browser + operating system
+- Expected result
+- Actual result
 
 ## Suggest a Feature
-We welcome feature ideas!  
-Open a new issue and choose "Feature Request" template.
+
+Feature ideas are welcome.
+
+Open a new issue and choose the **Feature Request** template.
+
+---
 
 # Changelog
-All notable changes to Thingling will be documented in this file.
+
+All notable changes to Thingling are documented below.
+
+## [v1.3] — 2026-09-25
+
+### Added
+- Support for large hero images while preserving original dimensions
+- Adaptive batch processing with no fixed 50-image upload limit
+- No fixed per-image file-size cap
+- Custom ZIP filenames
+- Single-image renaming
+- Bulk filename patterns
+- Duplicate filename protection
+- Target file sizes with optional dimension reduction
+- Before / after image comparison
+- 100% output-size inspection
+- Saved presets stored locally in the browser
+- Retained originals for repeated exports
+- Export cancellation and failed-image retry support
+
+### Improved
+- Sharper image previews rendered from original image pixels
+- Sharper crop previews
+- Large-image handling and browser resource management
+- Export naming workflow
+- Metadata handling
+- Image format validation
+- Mobile controls and responsiveness
+
+### Changed
+- Removed the maximum long-edge setting for large images
+- Image processing now adapts more dynamically to available browser resources
 
 ## [v1.2] — 2026-03-17
+
 ### Added
 - New Bulk Meta Editor tab (`data-mode="meta"`) with a dedicated queue and processing pipeline
 - Batch metadata actions to strip all metadata or keep/edit metadata before export
@@ -50,11 +89,15 @@ All notable changes to Thingling will be documented in this file.
 
 ### Added
 - Exact resize
-- Auto-crop (object-fit) + focus crop
-- Improved WebP compression + quality slider
-- Drag & drop + batch processing
-- Live previews + clean CLEAR reset
-- 100% private (local-only processing)
+- Auto-crop using object-fit
+- Focus-point cropping
+- Improved WebP compression
+- Quality slider
+- Drag-and-drop image uploads
+- Batch processing
+- Live previews
+- Clean CLEAR reset
+- 100% private, local-only image processing
 
 ---
 
